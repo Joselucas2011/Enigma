@@ -5,7 +5,7 @@ document.getElementById("form").addEventListener("submit", function(event) {
     // Verifica se a senha está correta
     if (password === "kkkk") {
         // Redireciona para outro arquivo HTML
-        window.location.href = "pao.html";
+        window.location.href = "index.html";
     } else {
         // Alerta caso a senha esteja errada
         alert("Senha incorreta! Tente novamente.");
